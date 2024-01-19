@@ -1,5 +1,5 @@
 
-FROM python:3-alpine
+FROM python:3.13.0a3-alpine
 LABEL maintainer="maurosoria@protonmail.com"
 WORKDIR /root
 RUN apk add --no-cache --virtual .depends git
